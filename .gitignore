@@ -1,1 +1,6 @@
-dir_to_ignore/data
+data/cwdmapping090823.csv
+data/cwdmappingdata_processed.csv
+data/mappingdata_3cells_deidentified.xlsx
+data/mappingdata_22districts_deidentified.xlsx
+data/rwa_adm3_2006_NISR_WGS1984_20181002.shp
+data/rwa_adm3_2006_NISR_WGS1984_20181002.shx
