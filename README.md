@@ -46,13 +46,11 @@ For the Washington Group Child Functioning u5 & u9 surveys, the following tasks 
 #### Rwanda-Mapping-Data-Analysis:
 The analysis aims to understand factors related to developmental delays and disabilities in children, using real-world data from Rwanda. It uses cross tabulation, pivot tables, modeling with logistic regression, decision tree classification and parameter tuning.
 
-For the two samples, here are the overall prevalence figures:
+For the two samples, here are the overall prevalence figures (Keeping in mind that the 3cells sample was all households whereas 22districts sample was only households previously identified as having a disability):
 | Sample      | Under 3   | Under 5   | Under 9   |
 |-------------|-----------|-----------|-----------|
 | 22districts | 66.09%    | 48.45%    | 78.56%    |
 | 3cells      | 9.45%     | 14.62%    | 15.98%    |
-
-(Keep in mind that the 3cells sample was all households whereas 22districts sample was only households previously identified as having a disability)
 
 <details>
 <summary><strong>Details</strong></summary>
