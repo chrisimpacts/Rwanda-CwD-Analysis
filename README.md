@@ -80,13 +80,13 @@ The next section aims to distill the developmental delay risk survey into <20 fe
 After splitting the dataset into training and testing, a 10-fold cross validated GridSearch is used to tune the hyperparamters in the decision tree classifier, to maximise recall while making sure the chosen paramters are robust to overfitting.
 
 ##### Results
-Recall score for the tuned model, using only 6 features, is 78%
+Recall score for the tuned model, using only 6 features, is 83%
 
-Here is the confusion matrix, showing that despite optimisng for recall, accuracy is still high (93%)
+Here is the confusion matrix, showing that despite optimisng for recall, accuracy is still high (87%)
 
 ![Alt text](image-2.png)
 
-The most salient features to be included in a rapid survey is asking about the child's birthweight, nutritional status, mother's health issue, parents school level and ubudehe (social security category).
+The most salient features to be included in a rapid survey is asking about the child's birthweight, nutritional status, parent's impairments and ubudehe (social security category).
 
 Here is the resulting decision tree showing how these features classify the training data: 
 
