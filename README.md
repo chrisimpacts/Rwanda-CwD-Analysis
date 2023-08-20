@@ -51,6 +51,7 @@ For the two samples, here are the overall prevalence figures:
 |-------------|-----------|-----------|-----------|
 | 22districts | 66.09%    | 48.45%    | 78.56%    |
 | 3cells      | 9.45%     | 14.62%    | 15.98%    |
+
 (Keep in mind that the 3cells sample was all households whereas 22districts sample was only households previously identified as having a disability)
 
 <details>
