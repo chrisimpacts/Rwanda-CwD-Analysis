@@ -55,16 +55,16 @@ For the two samples, here are the overall prevalence figures (Keeping in mind th
 <details>
 <summary><strong>Details</strong></summary>
 
-###### Understanding the Strengths & Limitations of the Two Samples
+##### Understanding the Strengths & Limitations of the Two Samples
 
-###### 3 Cells Sample
+##### 3 Cells Sample
 Strengths:
 * All households in 3 cells were sampled so it enables a true estimate of disability in these places
 
 Limitations:
 * Only covers 3 cells out of 2148 (Rwanda is split into 30 districts, 416 sectors, 2148 cells and 14837 villages)
 
-###### 22 Districts Sample
+##### 22 Districts Sample
 Strengths:
 * Households involved were spread over 22/30 districts of Rwanda
 * Representative sample among children identified as having a disability
@@ -84,19 +84,19 @@ Recall score for the tuned model, using only 6 features, is 83%
 
 Here is the confusion matrix, showing that despite optimisng for recall, accuracy is still high (87%)
 
-![Alt text](image-2.png)
+![confusion matrix](graphics/image-2.png)
 
 The most salient features to be included in a rapid survey is asking about the child's birthweight, nutritional status, parent's impairments and ubudehe (social security category).
 
 Here is the resulting decision tree showing how these features classify the training data: 
 
-![Alt text](tree_model.svg)
+![decision tree](graphics/tree_model_viz.svg)
 
 
 ##### Under 5 & Under 9 Washington Group Child Function Questionnaire:
 Seaborn is used to plot the % of children in the 3cell sample with any functional disability, segmented by district.
 
-![Alt text](image-1.png)
+![% of children in the 3cell sample with any functional disability](graphics/image-1.png)
 
 </details>
 
